@@ -1,0 +1,15 @@
+---
+layout: post
+read_time: true
+show_date: true
+title:  我家猫丢了
+date:   2021-08-03 21:30:05 -0600
+description: 那只笨猫的故事
+img: posts\20210803\黑人问号.jpg
+tags: [life]
+author: Albert
+---
+当时我在我长辈家里，我在那里写作业，我弟有课所以赶回去。结果他回家发现猫不见。
+我就纳闷了，家里门都关着，猫还能跑出去，这猫是会穿墙吗？？？！！结果就找不着
+这只猫了，好有意思啊！！！？？
+![](..\assets\img\posts\20210803\黑人问号.jpg)

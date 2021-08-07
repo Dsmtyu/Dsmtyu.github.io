@@ -1,0 +1,13 @@
+---
+layout: post
+read_time: true
+show_date: true
+title:  我家猫又找到了
+date:   2021-08-04 09:57:05 -0600
+description: 那只笨猫的故事
+img: posts\20210803\黑人问号.jpg
+tags: [life]
+author: Albert
+---
+楼下张大爷出门时发现猫趴在屋顶上，我妈就把它抱下来了。真不知道它是怎么上去的.
+![](..\assets\img\posts\20210803\黑人问号.jpg)
