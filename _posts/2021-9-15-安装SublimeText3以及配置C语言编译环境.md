@@ -6,7 +6,7 @@ title:  SublimeText3的使用
 date:   2021-09-15 18:21 -0600
 description: 冒泡排序算法
 img: /posts/20210915/background.jpeg
-tags: [Algorithm, C]
+tags: [Sublime Text3]
 author: Albert
 ---
 # Sublime Text3的使用
