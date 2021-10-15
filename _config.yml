@@ -24,7 +24,7 @@ logo-dark: "/assets/img/branding/MVM-logo-full-dark.svg"
 highlight_theme: syntax-base16.monokai.dark # select a dark theme for the code highlighter if needed
 
 # Author settings
-author: Albert 吴宸宇 # add your name
+author: Albert # add your name
 about-author: A student in junior middle school
 # Contact links
 email: albertwusuowei@outlook.com # Add your Email address
@@ -36,7 +36,7 @@ github: Albert-wuchenyu # Add your Github handle
 mailchimp: "https://github.us1.list-manage.com/subscribe/post?u=8ece198b3eb260e6838461a60&amp;id=397d90b5f4"
 
 # Disqus
-discus_identifier: albert-wuchenyu-github-io # Add your discus identifier
+discus_identifier: Albert # Add your discus identifier
 comments_curtain: yes # leave empty to show the disqus embed directly
 
 # Tracker
