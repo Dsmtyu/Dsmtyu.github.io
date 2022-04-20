@@ -18,9 +18,68 @@ author: Albert
 双击运行，按照提示安装即可。  
 安装之后进去，按下 __Crtl+~__ 调出命令输入以下代码
 ```python
-import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read()) 
+import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())
 ```
 就可以安装Package Control组件，安装插件了。
 
-Sublime Text3汉化：
-    按下 __Crtl+Shift+P__ 输入install回车，看到已经选中install packag后，再输入localize回车，就会安装汉化插件。
+### Sublime Text3汉化：
+按下 __Crtl+Shift+P__ 输入install回车，看到已经选中install packag后，再输入localize回车，就会安装汉化插件。
+
+### sublime Text3配置C/C++
+首先下载MinGW的C语言内核，这里提供一种[MinGW](https://sourceforge.net/projects/mingw/)下载地址。下载完成后按照提示安装，配置环境变量，重启。
+进入Sublime Text，Tools(工具)-->编译系统-->新建编译系统。如图所示。
+![image](../assets/img/posts/20211003/2021-10-03.jpg)
+输入如下代码(C.sublime-build)。
+```json
+// windows环境
+{
+
+	"working_dir": "$file_path",
+
+	"cmd": "gcc -Wall \"$file_name\" -o \"$file_base_name\"",
+
+	"file_regex": "^(..[^:]*):([0-9]+):?([0-9]+)?:? (.*)$",
+
+	"selector": "source.c",
+
+	"variants":
+
+	[
+
+	{
+
+	     "name": "Run",
+
+	     "shell_cmd": "gcc -Wall \"$file\" -o \"$file_base_name\" && start cmd /c \"${file_path}/${file_base_name} & pause\""
+
+	}
+
+	]
+
+}
+
+```
+![image](../assets/img/posts/20211003/2021-10-03%20113246.jpg)
+C++配置如下(C++.sublime-build)。
+```json
+// windows系统
+{
+	"cmd": ["g++", "${file}", "-o", "${file_path}/${file_base_name}"],
+	"file_regex": "^(..[^:]*):([0-9]+):?([0-9]+)?:? (.*)$",
+	"working_dir": "${file_path}",
+	"selector": "source.c, source.c++",
+
+	"variants":
+	[
+		{
+			"name": "Run",
+			"cmd": ["cmd", "/c", "g++", "${file}", "-o", "${file_path}/${file_base_name}", "&&", "cmd", "/c", "${file_path}/${file_base_name}"]
+		},
+		{
+			"name": "RunInCommand",
+			"cmd": ["cmd", "/c", "g++", "${file}", "-o", "${file_path}/${file_base_name}", "&&", "start", "cmd", "/c", "${file_path}/${file_base_name} & pause"]
+		}
+	]
+}
+```
+现在C/C++已经可以运行了。
