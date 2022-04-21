@@ -1,10 +1,10 @@
 # Site settings
 title: Albert Blog
-SEOTitle: 吴宸宇的博客 | Albert-wuchenyu Blog
+SEOTitle: 吴的博客 | Albert Blog
 header-img: img/post-bg-rwd.jpg
 email: 2845816276@qq.com
 description: "认真你就输了！"
-keyword: "Albert, Albert Blog, 吴宸宇的博客, Albert-wuchenyu, 吴宸宇"
+keyword: "Albert, Albert Blog, 吴的博客, Albert-wuchenyu, AW"
 url: "https://albert-wuchenyu.github.io/"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/Albert-wuchenyu/Albert-wuchenyu.github.io.git" # you code repository
