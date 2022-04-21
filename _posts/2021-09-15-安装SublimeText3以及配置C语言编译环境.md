@@ -3,7 +3,7 @@ layout: post
 title:  Sublime Text3的使用
 date:   2021-09-15
 header-img: img/posts/20210915/background.jpeg
-tags: 
+tags:
     - Sublime Text3
 author: Albert
 catalog: true
@@ -13,7 +13,7 @@ catalog: true
 由于Sublime Text是跨平台编辑器，可以在Windows,macOS,Linux系统运行，这里我们只说Windows 10系统上的。
 
 首先，我们先到[Sublime Text3](https://www.sublimetext.com/3)的官网下载对应你系统的版本，右边的 [portable version](https://download.sublimetext.com/Sublime%20Text%20Build%203211%20x64.zip) 是 __.zip__ 便携版本，可直接运行。这里演示 [__.exe__](https://download.sublimetext.com/Sublime%20Text%20Build%203211%20x64%20Setup.exe)  
-![](img/posts/20210915/exe.jpg)
+![](/img/posts/20210915/exe.jpg)
 双击运行，按照提示安装即可。  
 安装之后进去，按下 __Crtl+~__ 调出命令输入以下代码
 ```python
@@ -27,7 +27,7 @@ import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.
 ### sublime Text3配置C/C++
 首先下载MinGW的C语言内核，这里提供一种[MinGW](https://sourceforge.net/projects/mingw/)下载地址。下载完成后按照提示安装，配置环境变量，重启。
 进入Sublime Text，Tools(工具)-->编译系统-->新建编译系统。如图所示。
-![](img/posts/20211003/2021-10-03.jpg)
+![](/img/posts/20211003/2021-10-03.jpg)
 输入如下代码(C.sublime-build)。
 ```json
 // windows环境
