@@ -105,5 +105,8 @@ friends: [
     },{
         title: "博客园",
         href: "https://home.cnblogs.com/u/2735791"
+    },{
+        title: "YACS",
+        href: "https://iai.sh.cn/profile/6091"
     }
 ]
