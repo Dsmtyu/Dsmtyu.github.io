@@ -65,7 +65,7 @@ gitalk:
   enable: true    #是否开启Gitalk评论
   clientID: Iv1.85a0ef5e8678659e                            #生成的clientID
   clientSecret: a3bb684528a5eb591208fc12c47427286f0a14ea    #生成的clientSecret
-  repo:  albert-wuchenyu.github.io    #仓库名称
+  repo:  Albert-wuchenyu.github.io    #仓库名称
   owner: Albert-wuchenyu    #github用户名
   admin: Albert-wuchenyu
   distractionFreeMode: true #是否启用类似FB的阴影遮罩
