@@ -1,7 +1,7 @@
 # Site settings
 title: Albert Blog
 SEOTitle: 吴宸宇的博客 | Albert-wuchenyu Blog
-header-img: img/post-bg-desk.jpg
+header-img: img/post-bg-rwd.jpg
 email: 2845816276@qq.com
 description: "认真你就输了！"
 keyword: "Albert, Albert Blog, 吴宸宇的博客, Albert-wuchenyu, 吴宸宇"
@@ -12,7 +12,7 @@ github_repo: "https://github.com/Albert-wuchenyu/Albert-wuchenyu.github.io.git" 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "When there's a will there's a way kind of beautiful."
-sidebar-avatar: / img/about.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: img/about.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
