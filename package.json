@@ -2,13 +2,13 @@
     "name": "AlbertWuchenyu-blog",
     "title": "Albert Blog",
     "author": "Albert <albert-wuchenyu@outlook.com>",
-    "version": "1.0.0",
-    "homepage": "https://albert-wuchenyu.github.io",
+    "version": "1.2.0",
+    "homepage": "https://dsmtyu.github.io",
     "repository": {
         "type": "git",
-        "url": "https://github.com/Albert-wuchenyu/albert-wuchenyu.github.io"
+        "url": "https://github.com/dsmtyu/dsmtyu.github.io"
     },
-    "bugs": "https://github.com/lbert-wuchenyu/albert-wuchenyu.github.io/issues",
+    "bugs": "https://github.com/lbert-wuchenyu/dsmtyu.github.io/issues",
     "devDependencies": {
         "grunt": ">=1.3.0"
         "grunt-contrib-less": "~0.11.4",

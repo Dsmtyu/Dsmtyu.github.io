@@ -1,13 +1,13 @@
 # Site settings
-title: Dsmtyu Blog
-SEOTitle: 吴的博客 | Dsmtyu Blog
+title: dsmtyu Blog
+SEOTitle: 吴的博客 | dsmtyu Blog
 header-img: img/post-bg-rwd.jpg
 email: 2845816276@qq.com
-description: "认真你就输了！"
-keyword: "Dsmtyu, Dsmtyu Blog, 吴的博客, AW"
-url: "https://Dsmtyu.github.io/"          # your host, for absolute URL
+description: "Never forget why you start."
+keyword: "dsmtyu, blog"
+url: "https://dsmtyu.github.io/"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
-github_repo: "https://github.com/Dsmtyu/Dsmtyu.github.io.git" # you code repository
+github_repo: "https://github.com/dsmtyu/dsmtyu.github.io.git" # you code repository
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
@@ -65,9 +65,9 @@ gitalk:
   enable: true    #是否开启Gitalk评论
   clientID: 2467af9288ab06dd0f5e                            #生成的clientID
   clientSecret: 8a91ebac9fcad062293594a0d71596d4076b913a    #生成的clientSecret
-  repo:  Dsmtyu.github.io    #仓库名称
-  owner: Dsmtyu    #github用户名
-  admin: Dsmtyu
+  repo:  dsmtyu.github.io    #仓库名称
+  owner: dsmtyu    #github用户名
+  admin: dsmtyu
   distractionFreeMode: true #是否启用类似FB的阴影遮罩
 
 
