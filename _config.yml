@@ -1,17 +1,17 @@
 # Site settings
-title: dsmtyu Blog
-SEOTitle: 吴的博客 | dsmtyu Blog
+title: 上海市青浦高级中学LG社
+SEOTitle: LG社官网
 header-img: img/post-bg-rwd.jpg
-email: 2845816276@qq.com
-description: "Never forget why you start."
-keyword: "dsmtyu, blog"
+email: sya_123123@outlook.com
+description: "永远的石楠花"
+keyword: "青中，LG社"
 url: "https://dsmtyu.github.io/"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/dsmtyu/dsmtyu.github.io.git" # you code repository
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "When there's a will there's a way kind of beautiful."
+sidebar-about-description: "小撸怡情，大撸伤身，强撸灰飞烟灭"
 sidebar-avatar: /img/about.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
@@ -19,12 +19,12 @@ sidebar-avatar: /img/about.jpg      # use absolute URL, seeing it's used in both
 # SNS settings
 RSS: false
 # weibo_username:     none
-zhihu_username:    Dsmtyu
+# zhihu_username:    Dsmtyu
 github_username:    Dsmtyu
-csdn_username:    Dsmtyu
-#facebook_username:  none
-#jianshu_username:   none
-#twitter_username:   none
+# csdn_username:    Dsmtyu
+# facebook_username:  none
+# jianshu_username:   none
+# twitter_username:   none
 
 
 
@@ -100,13 +100,7 @@ service-worker: true
 # Friends
 friends: [
     {
-        title: "CSDN",
-        href: "https://blog.csdn.net/Albert_wuchenyu?spm=1000.2115.3001.5343"
-    },{
-        title: "博客园",
-        href: "https://home.cnblogs.com/u/2735791"
-    },{
-        title: "YACS",
-        href: "https://iai.sh.cn/profile/6091"
+        title: "技术咨询",
+        href: "https://github.com/qinpugaojizhongxuelgshe"
     }
 ]
